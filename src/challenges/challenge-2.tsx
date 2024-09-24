@@ -1,6 +1,7 @@
 import { useCallback, useEffect, useState } from "react";
 
-// Tell me about what's going on around here? And how would you improve this component?
+// Tell me about what's going on around here?
+// And how would you improve this component in case of multiple instances?
 const Challenge2 = () => {
   const [count, setCount] = useState(0);
 

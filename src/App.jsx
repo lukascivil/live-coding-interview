@@ -2,11 +2,13 @@ import { useState } from "react";
 import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
 import "./App.css";
+// Challenges
 import Challenge1 from "./challenges/challenge-1";
 import Challenge2 from "./challenges/challenge-2";
+import Challenge3 from "./challenges/challenge-3";
 
 function App() {
-  return <Challenge2 />;
+  return <Challenge3 />;
 
   // return (
   //   <>
