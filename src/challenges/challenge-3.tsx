@@ -17,12 +17,16 @@ const darkTheme = {
   color: "white",
 };
 
-// Build a custom hook to change the theme based on user button click action.
-// Use all TypeScript system resources.
+/**
+ * Challenge 3
+ *
+ * (1) Build a custom hook to change the theme based on user button click action.
+ * (2) Use all TypeScript system resources.
+ */
 const Challenge3 = () => {
   return (
     <div style={lightTheme}>
-      <h1>Challenge 2</h1>
+      <h1>Challenge 3</h1>
       <div style={{ display: "flex", justifyContent: "space-around" }}>
         <button value="light">Light</button>
         <button value="dark">Dark </button>

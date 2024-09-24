@@ -1,6 +1,10 @@
 import { useEffect, useState } from "react";
 
-// Tell me about what's going on around here?
+/**
+ * Challenge 1
+ *
+ * (1) What's going on around here?
+ */
 const Challenge1 = () => {
   const [count, setCount] = useState(0);
 
