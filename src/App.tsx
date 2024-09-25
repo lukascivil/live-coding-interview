@@ -1,6 +1,5 @@
 // Styles
 import { useState } from "react";
-import "./App.css";
 
 // Challenges
 import { Challenge1, Challenge2, Challenge3, Challenge4 } from "./challenges";
@@ -11,7 +10,12 @@ const App = () => {
 
   return (
     <div className="container">
-      <div style={{ display: "flex", justifyContent: "space-around" }}>
+      <div
+        style={{
+          display: "flex",
+          justifyContent: "space-around",
+        }}
+      >
         <div>
           <button
             style={challenge === 1 ? { backgroundColor: "green" } : {}}
@@ -46,7 +50,9 @@ const App = () => {
         </div>
       </div>
       <div style={{ paddingTop: "8px" }}>
-        {challenge === 0 && "Select your challenge"}
+        {challenge === 0 && (
+          <div style={{ textAlign: "center" }}>Select your challenge</div>
+        )}
         {challenge === 1 && <Challenge1 />}
         {challenge === 2 && <Challenge2 />}
         {challenge === 3 && <Challenge3 />}
