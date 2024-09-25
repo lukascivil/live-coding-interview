@@ -14,7 +14,7 @@ import { useEffect } from "react";
  * (3) User should be able to update a todo.
  * - PUT /todos/1
  * (4) User should be able to delete a todo.
- * - DELETE /posts/1
+ * - DELETE /todos/1
  * (5) Implement optimistic updates
  * (6) Implement pagination strategy (client side).
  * - GET /todos?_start=10&_end=20 | GET /todos?_page=1&_per_page=25
