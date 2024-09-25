@@ -15,9 +15,10 @@ import { useEffect } from "react";
  * - PUT /todos/1
  * (4) User should be able to delete a todo.
  * - DELETE /posts/1
- * (5) Implement pagination strategy (client side).
+ * (5) Implement optimistic updates
+ * (6) Implement pagination strategy (client side).
  * - GET /todos?_start=10&_end=20 | GET /todos?_page=1&_per_page=25
- * (6) Use all TypeScript system resources.
+ * (7) Use all TypeScript system resources.
  * (*) Tell about the pagination strategy e how it would be implemented in front in case of.
  *   - Finite list.
  *   - Infinite list
