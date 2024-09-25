@@ -1,5 +1,3 @@
-import { useCallback, useEffect, useState } from "react";
-
 const commonTheme = {
   padding: "10px",
   borderRadius: "8px",

@@ -1,3 +1,7 @@
+// Packages
+import axios from "axios";
+import { useEffect } from "react";
+
 /**
  * Challenge 4 (CRUD + DOM Manipulation + form + API)
  *
@@ -26,6 +30,12 @@
  *    completed: boolean;
  */
 const Challenge4 = () => {
+  useEffect(() => {
+    axios.get("http://localhost:3001/todos").then((response) => {
+      console.log(response.data);
+    });
+  }, []);
+
   return (
     <div>
       <h1>Challenge 4</h1>
