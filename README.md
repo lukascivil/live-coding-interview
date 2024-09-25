@@ -2,10 +2,10 @@
 
 Some challenges for implementation in front-end recruitment process.
 
-#### About:
+#### About
 
-- Challenge 1, 2 and 3 will validate your knowledge of React and Typescript.
-- Challenge 4 will validate your knowledge about building a complete CRUD with API (json-server) interaction.
+- [Challenge 1, 2 and 3](https://github.com/lukascivil/live-coding-interview/tree/main/src/challenges) will validate your knowledge of React and Typescript.
+- [Challenge 4](https://github.com/lukascivil/live-coding-interview/tree/main/src/challenges) will validate your knowledge about building a complete CRUD with API (json-server) interaction.
 
 ### Running the project
 
