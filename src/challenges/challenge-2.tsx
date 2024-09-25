@@ -1,7 +1,7 @@
 import { useCallback, useEffect, useState } from "react";
 
 /**
- * Challenge 1
+ * Challenge 2 (JavaScript)
  *
  * (1) What's going on around here?
  * (2) How would you improve this component in case of multiple instances?

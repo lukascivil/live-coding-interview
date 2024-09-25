@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 
 /**
- * Challenge 1
+ * Challenge 1 (React)
  *
  * (1) What's going on around here?
  */

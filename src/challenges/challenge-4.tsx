@@ -1,42 +1,29 @@
-const createUserRefund = (id) => {
-  return new Promise((resolve) => {
-    setTimeout(() => {
-      resolve({ done: true, id });
-    }, 1000);
-  });
-};
-
-const createUserRefundLog = () => {
-  return new Promise((resolve) => {
-    setTimeout(() => {
-      resolve({ done: true });
-    }, 1000);
-  });
-};
-
-const getUserExtract = () => {
-  const extract = new Array(1000).fill(0).map((_, index) => ({
-    id: index,
-    value: Math.random() * 100,
-  }));
-
-  return new Promise((resolve) => {
-    setTimeout(() => {
-      resolve(extract);
-    }, 1000);
-  });
-};
-
 /**
- * Challenge 4
+ * Challenge 4 (CRUD + DOM Manipulation + form + API)
  *
- * The user should see the extract and be able to send the refund request.
- * The user should never register the refund twice.
- * (1) List the user extract.
- * (2) Create button to send the refund and block.
- * (3) Identify opportunities for improvement (double click).
- * (4) Tell about the pagination strategy.
- * (5) Use all TypeScript system resources.
+ * The user should see the list and interact with it.
+ *
+ * (1) User should be able to List the todos.
+ * - GET /todos
+ * (2) User should be able to create a new todo.
+ * - POST /todos
+ * (3) User should be able to update a todo.
+ * - PUT /todos/1
+ * (4) User should be able to delete a todo.
+ * - DELETE /posts/1
+ * (5) Implement pagination strategy (client side).
+ * - GET /todos?_start=10&_end=20 | GET /todos?_page=1&_per_page=25
+ * (6) Use all TypeScript system resources.
+ * (*) Tell about the pagination strategy e how it would be implemented in front in case of.
+ *   - Finite list.
+ *   - Infinite list
+ *
+ *  The API running at http://localhost:3001/todos is a simple CRUD API that should.
+ *  The API has the following structure:
+ *    id: number;
+ *    title: string;
+ *    description: string;
+ *    completed: boolean;
  */
 const Challenge4 = () => {
   return (
