@@ -15,16 +15,26 @@ const darkTheme = {
   color: "white",
 };
 
+const ThemeInfo = () => {
+  return (
+    <div>
+      <h1>Challenge 3</h1>
+      <p>Current theme: ...</p>
+    </div>
+  );
+};
+
 /**
  * Challenge 3 (React + Typescript)
  *
- * (1) Build a custom hook to change the theme based on user button click action.
- * (2) Use all TypeScript system resources.
+ * (1) Build a custom hook with context-api to change the theme based on user button click action.
+ * (2) Show the current theme name in the ThemeInfo component.
+ * (3) Use all TypeScript system resources.
  */
 const Challenge3 = () => {
   return (
     <div style={lightTheme}>
-      <h1>Challenge 3</h1>
+      <ThemeInfo />
       <div style={{ display: "flex", justifyContent: "space-around" }}>
         <button value="light">☀️ Light</button>
         <button value="dark">🌑 Dark </button>
