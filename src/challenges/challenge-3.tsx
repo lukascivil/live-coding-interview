@@ -16,7 +16,7 @@ const darkTheme = {
 };
 
 /**
- * Challenge 3 (React)
+ * Challenge 3 (React + Typescript)
  *
  * (1) Build a custom hook to change the theme based on user button click action.
  * (2) Use all TypeScript system resources.

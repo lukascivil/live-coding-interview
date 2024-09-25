@@ -3,7 +3,7 @@ import axios from "axios";
 import { useEffect } from "react";
 
 /**
- * Challenge 4 (CRUD + DOM Manipulation + form + API)
+ * Challenge 4 (CRUD + DOM Manipulation + form + API + Typescript)
  *
  * The user should see the list and interact with it.
  *
