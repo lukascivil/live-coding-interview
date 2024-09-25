@@ -26,8 +26,8 @@ const Challenge3 = () => {
     <div style={lightTheme}>
       <h1>Challenge 3</h1>
       <div style={{ display: "flex", justifyContent: "space-around" }}>
-        <button value="light">Light</button>
-        <button value="dark">Dark </button>
+        <button value="light">☀️ Light</button>
+        <button value="dark">🌑 Dark </button>
       </div>
     </div>
   );
