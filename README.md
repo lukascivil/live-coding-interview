@@ -1,4 +1,4 @@
-# live-coding-interview
+# Live Coding Interview
 
 Some challenges for implementation in front-end recruitment process.
 
