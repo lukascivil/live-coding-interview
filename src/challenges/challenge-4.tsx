@@ -15,16 +15,17 @@ import { useEffect } from "react";
  * - PUT /todos/1
  * (4) User should be able to delete a todo.
  * - DELETE /todos/1
- * (5) Implement optimistic updates
- * (6) Implement pagination strategy (client side).
- * - GET /todos?_start=10&_end=20 | GET /todos?_page=1&_per_page=25
+ * (5) Implement optimistic updates.
  * (7) Use all TypeScript system resources.
- * (*) Tell about the pagination strategy e how it would be implemented in front in case of.
+ *
+ * (*) Implement pagination strategy (client side).
+ * - GET /todos?_start=10&_end=20 | GET /todos?_page=1&_per_page=25
+ * (*) Describe the pagination strategy and how it would be implemented in the case of:
  *   - Finite list.
  *   - Infinite list
  *
  *  The API running at http://localhost:3001/todos is a simple CRUD API that should.
- *  The API has the following structure:
+ *  The Todo has the following structure:
  *    id: number;
  *    title: string;
  *    description: string;
