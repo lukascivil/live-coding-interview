@@ -16,7 +16,7 @@ import { useEffect } from "react";
  * (4) User should be able to delete a todo.
  * - DELETE /todos/1
  * (5) Implement optimistic updates.
- * (7) Use all TypeScript system resources.
+ * (6) Use all TypeScript system resources.
  *
  * (*) Implement pagination strategy (client side).
  * - GET /todos?_start=10&_end=20 | GET /todos?_page=1&_per_page=25

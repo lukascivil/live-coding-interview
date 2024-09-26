@@ -18,3 +18,9 @@ yarn dev
 
 - NPM
 - Nodejs
+
+### Considerations
+
+You will have 1 hour and 30 minutes to complete the challenges. You do not need to finish everything, your technical skills will be assessed.
+
+Have a good challenge!
