@@ -28,7 +28,7 @@ const ThemeInfo = () => {
  * Challenge 3 (React + Typescript)
  *
  * (1) Build a custom hook with context-api to change the theme based on user button click action.
- * (2) Show the current theme name in the ThemeInfo component.
+ * (2) Show the current theme name in the ThemeInfo component without passing props.
  * (3) Use all TypeScript system resources.
  */
 const Challenge3 = () => {
