@@ -6,6 +6,7 @@ import { useEffect } from "react";
  * Challenge 4 (CRUD + DOM Manipulation + form + API + Typescript)
  *
  * The user should see the list and interact with it.
+ * Ps:. Don't worry about styling, use common HTML tags.
  *
  * (1) User should be able to List the todos.
  * - GET /todos
