@@ -16,7 +16,7 @@ yarn dev
 
 ### Requirements
 
-- NPM
+- NPM / Yarn
 - Nodejs
 
 ### Considerations
